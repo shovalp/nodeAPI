@@ -8,7 +8,7 @@ app.post('/remove', function (req, res) {
   console.log('req: ', req.body);
   res.send(req.body.driver);
 });
+
 app.listen(3000, function () {
-  console.log('App is listening on port 3000!'
-  );
+  console.log('App is listening on port 3000!');
 });
